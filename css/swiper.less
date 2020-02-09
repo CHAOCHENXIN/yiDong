@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+
+.swiper {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.swiper-wrapper {
+    display: flex;
+}
+.swiper-item {
+    flex: none;
+}
+.swiper img {
+    width: 100%;
+    display: block;
+}
+
+.pagation {
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.pagation span {
+    margin: 0 2px;
+    width: 10px;
+    height: 10px;
+    background-color: #999;
+    border-radius: 50%;
+}
+.pagation span.active {
+    background-color: deeppink;
+}
+
+#content {
+    margin-top: 20px;
+}
+#content img {
+    width: 100%;
+}

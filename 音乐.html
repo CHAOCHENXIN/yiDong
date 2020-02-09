@@ -1,0 +1,492 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0,viewport-fit:cover">
+    <title>音悦台</title>
+    <style>
+        img{
+            width: 100%;
+        }
+        .paganation{
+            top: 350px;
+        }
+        #header{
+            z-index: 999;
+            position: absolute !important;
+            left: 0;
+            top: 0;
+        }
+        #main{
+            padding-top: 95px;
+        }
+    </style>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<div id="app">
+    <!--头部-->
+    <header id="header">
+        <div class="header-top">
+            <div class="logo">
+                <a href="javascript:">
+                    <img src="img/logo.png" alt="logo">
+                </a>
+            </div>
+            <div class="menu-btn"></div>
+            <div class="btns">
+                <button class="btn btn-search">搜索</button>
+                <button class="btn">登录</button>
+                <button class="btn">注册</button>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <form action="test.php">
+                <input type="text" class="search-input" placeholder="请输入搜索内容...">
+                <button class="search-btn">搜索</button>
+            </form>
+        </div>
+        <div class="menu-list">
+            <ul>
+                <li><a href="javascript:">首页</a></li>
+                <li><a href="javascript:">MV</a></li>
+                <li><a href="javascript:">TV</a></li>
+                <li><a href="javascript:">电台</a></li>
+                <li><a href="javascript:">怀旧</a></li>
+                <li><a href="javascript:">经典</a></li>
+                <li><a href="javascript:">流行</a></li>
+                <li><a href="javascript:">影视</a></li>
+                <li><a href="javascript:">摇滚</a></li>
+                <li><a href="javascript:">Rap</a></li>
+                <li><a href="javascript:">喊麦</a></li>
+                <li><a href="javascript:">篮球</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div id="main">
+        <!--导航-->
+        <nav id="nav">
+            <ul>
+                <li class="active">
+                    <a href="javascript:">首页</a>
+                </li>
+                <li>
+                    <a href="javascript:">MV</a>
+                </li>
+                <li>
+                    <a href="javascript:">悦单</a>
+                </li>
+                <li>
+                    <a href="javascript:">V榜</a>
+                </li>
+                <li>
+                    <a href="javascript:">音悦</a>
+                </li>
+                <li>
+                    <a href="javascript:">商城</a>
+                </li>
+                <li>
+                    <a href="javascript:">节目</a>
+                </li>
+                <li>
+                    <a href="javascript:">饭团</a>
+                </li>
+                <li>
+                    <a href="javascript:">资讯</a>
+                </li>
+                <li>
+                    <a href="javascript:">我的家</a>
+                </li>
+                <li>
+                    <a href="javascript:">APP下载</a>
+                </li>
+                <li>
+                    <a href="javascript:">热门应用</a>
+                </li>
+            </ul>
+        </nav>
+        <!--轮播图-->
+        <div id="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-item"><img src="img/1.jpg" alt="老刘"></div>
+                <div class="swiper-item"><img src="img/2.jpg" alt="老刘"></div>
+                <div class="swiper-item"><img src="img/3.jpg" alt="老刘"></div>
+                <div class="swiper-item"><img src="img/4.jpg" alt="老刘"></div>
+                <div class="swiper-item"><img src="img/5.jpg" alt="老刘"></div>
+            </div>
+            <div class="paganation"></div>
+        </div>
+        <!--选项卡-->
+        <div class="tab">
+            <header class="tab-header">
+                <h2>MV首播</h2>
+                <a href="javascript:" class="tab-more">更多&gt;</a>
+            </header>
+            <nav class="tab-nav">
+                <a href="javascript:">全部</a>
+                <a href="javascript:">大陆</a>
+                <a href="javascript:">港台</a>
+                <a href="javascript:">欧美</a>
+                <a href="javascript:">日韩</a>
+                <a href="javascript:">泰国</a>
+                <span class="border-bottom"></span>
+            </nav>
+            <div class="tab-content">
+                <div class="tab-loading"></div>
+                <ul class="content-list">
+                    <li class="content-item">
+                        <a href="javascript:">
+                            <img src="img/a.jpg" alt="老刘">
+                            <h3>乡村爱情8</h3>
+                        </a>
+                        <div class="content-des">
+                            <div class="played-count">
+                                <span class="icon"></span>
+                                <span class="numbers">2342</span>
+                            </div>
+                            <div class="comment-count">
+                                <span class="icon"></span>
+                                <span class="numbers">1342</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="content-item">
+                        <a href="javascript:">
+                            <img src="img/b.jpg" alt="老刘">
+                            <h3>乡村爱情之老刘和尼古拉斯的美丽故事</h3>
+                        </a>
+                        <div class="content-des">
+                            <div class="played-count">
+                                <span class="icon"></span>
+                                <span class="numbers">2342</span>
+                            </div>
+                            <div class="comment-count">
+                                <span class="icon"></span>
+                                <span class="numbers">1342</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="content-item">
+                        <a href="javascript:">
+                            <img src="img/a.jpg" alt="老刘">
+                            <h3>乡村爱情8</h3>
+                        </a>
+                        <div class="content-des">
+                            <div class="played-count">
+                                <span class="icon"></span>
+                                <span class="numbers">2342</span>
+                            </div>
+                            <div class="comment-count">
+                                <span class="icon"></span>
+                                <span class="numbers">1342</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="content-item">
+                        <a href="javascript:">
+                            <img src="img/a.jpg" alt="老刘">
+                            <h3>乡村爱情8</h3>
+                        </a>
+                        <div class="content-des">
+                            <div class="played-count">
+                                <span class="icon"></span>
+                                <span class="numbers">2342</span>
+                            </div>
+                            <div class="comment-count">
+                                <span class="icon"></span>
+                                <span class="numbers">1342</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="content-item">
+                        <a href="javascript:">
+                            <img src="img/a.jpg" alt="老刘">
+                            <h3>乡村爱情8</h3>
+                        </a>
+                        <div class="content-des">
+                            <div class="played-count">
+                                <span class="icon"></span>
+                                <span class="numbers">2342</span>
+                            </div>
+                            <div class="comment-count">
+                                <span class="icon"></span>
+                                <span class="numbers">1342</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="content-item">
+                        <a href="javascript:">
+                            <img src="img/a.jpg" alt="老刘">
+                            <h3>乡村爱情8</h3>
+                        </a>
+                        <div class="content-des">
+                            <div class="played-count">
+                                <span class="icon"></span>
+                                <span class="numbers">2342</span>
+                            </div>
+                            <div class="comment-count">
+                                <span class="icon"></span>
+                                <span class="numbers">1342</span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="tab-loading"></div>
+            </div>
+        </div>
+
+        <div class="tab">
+            <header class="tab-header">
+                <h2>MV首播</h2>
+                <a href="javascript:" class="tab-more">更多&gt;</a>
+            </header>
+            <nav class="tab-nav">
+                <a href="javascript:">全部</a>
+                <a href="javascript:">大陆</a>
+                <a href="javascript:">港台</a>
+                <a href="javascript:">欧美</a>
+                <a href="javascript:">日韩</a>
+                <a href="javascript:">泰国</a>
+                <span class="border-bottom"></span>
+            </nav>
+            <div class="tab-content">
+                <div class="tab-loading"></div>
+                <ul class="content-list">
+                    <li class="content-item">
+                        <a href="javascript:">
+                            <img src="img/a.jpg" alt="老刘">
+                            <h3>乡村爱情8</h3>
+                        </a>
+                        <div class="content-des">
+                            <div class="played-count">
+                                <span class="icon"></span>
+                                <span class="numbers">2342</span>
+                            </div>
+                            <div class="comment-count">
+                                <span class="icon"></span>
+                                <span class="numbers">1342</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="content-item">
+                        <a href="javascript:">
+                            <img src="img/b.jpg" alt="老刘">
+                            <h3>乡村爱情之老刘和尼古拉斯的美丽故事</h3>
+                        </a>
+                        <div class="content-des">
+                            <div class="played-count">
+                                <span class="icon"></span>
+                                <span class="numbers">2342</span>
+                            </div>
+                            <div class="comment-count">
+                                <span class="icon"></span>
+                                <span class="numbers">1342</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="content-item">
+                        <a href="javascript:">
+                            <img src="img/a.jpg" alt="老刘">
+                            <h3>乡村爱情8</h3>
+                        </a>
+                        <div class="content-des">
+                            <div class="played-count">
+                                <span class="icon"></span>
+                                <span class="numbers">2342</span>
+                            </div>
+                            <div class="comment-count">
+                                <span class="icon"></span>
+                                <span class="numbers">1342</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="content-item">
+                        <a href="javascript:">
+                            <img src="img/a.jpg" alt="老刘">
+                            <h3>乡村爱情8</h3>
+                        </a>
+                        <div class="content-des">
+                            <div class="played-count">
+                                <span class="icon"></span>
+                                <span class="numbers">2342</span>
+                            </div>
+                            <div class="comment-count">
+                                <span class="icon"></span>
+                                <span class="numbers">1342</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="content-item">
+                        <a href="javascript:">
+                            <img src="img/a.jpg" alt="老刘">
+                            <h3>乡村爱情8</h3>
+                        </a>
+                        <div class="content-des">
+                            <div class="played-count">
+                                <span class="icon"></span>
+                                <span class="numbers">2342</span>
+                            </div>
+                            <div class="comment-count">
+                                <span class="icon"></span>
+                                <span class="numbers">1342</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="content-item">
+                        <a href="javascript:">
+                            <img src="img/a.jpg" alt="老刘">
+                            <h3>乡村爱情8</h3>
+                        </a>
+                        <div class="content-des">
+                            <div class="played-count">
+                                <span class="icon"></span>
+                                <span class="numbers">2342</span>
+                            </div>
+                            <div class="comment-count">
+                                <span class="icon"></span>
+                                <span class="numbers">1342</span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="tab-loading"></div>
+            </div>
+        </div>
+
+        <div class="tab">
+            <header class="tab-header">
+                <h2>MV首播</h2>
+                <a href="javascript:" class="tab-more">更多&gt;</a>
+            </header>
+            <nav class="tab-nav">
+                <a href="javascript:">全部</a>
+                <a href="javascript:">大陆</a>
+                <a href="javascript:">港台</a>
+                <a href="javascript:">欧美</a>
+                <a href="javascript:">日韩</a>
+                <a href="javascript:">泰国</a>
+                <span class="border-bottom"></span>
+            </nav>
+            <div class="tab-content">
+                <div class="tab-loading"></div>
+                <ul class="content-list">
+                    <li class="content-item">
+                        <a href="javascript:">
+                            <img src="img/a.jpg" alt="老刘">
+                            <h3>乡村爱情8</h3>
+                        </a>
+                        <div class="content-des">
+                            <div class="played-count">
+                                <span class="icon"></span>
+                                <span class="numbers">2342</span>
+                            </div>
+                            <div class="comment-count">
+                                <span class="icon"></span>
+                                <span class="numbers">1342</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="content-item">
+                        <a href="javascript:">
+                            <img src="img/b.jpg" alt="老刘">
+                            <h3>乡村爱情之老刘和尼古拉斯的美丽故事</h3>
+                        </a>
+                        <div class="content-des">
+                            <div class="played-count">
+                                <span class="icon"></span>
+                                <span class="numbers">2342</span>
+                            </div>
+                            <div class="comment-count">
+                                <span class="icon"></span>
+                                <span class="numbers">1342</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="content-item">
+                        <a href="javascript:">
+                            <img src="img/a.jpg" alt="老刘">
+                            <h3>乡村爱情8</h3>
+                        </a>
+                        <div class="content-des">
+                            <div class="played-count">
+                                <span class="icon"></span>
+                                <span class="numbers">2342</span>
+                            </div>
+                            <div class="comment-count">
+                                <span class="icon"></span>
+                                <span class="numbers">1342</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="content-item">
+                        <a href="javascript:">
+                            <img src="img/a.jpg" alt="老刘">
+                            <h3>乡村爱情8</h3>
+                        </a>
+                        <div class="content-des">
+                            <div class="played-count">
+                                <span class="icon"></span>
+                                <span class="numbers">2342</span>
+                            </div>
+                            <div class="comment-count">
+                                <span class="icon"></span>
+                                <span class="numbers">1342</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="content-item">
+                        <a href="javascript:">
+                            <img src="img/a.jpg" alt="老刘">
+                            <h3>乡村爱情8</h3>
+                        </a>
+                        <div class="content-des">
+                            <div class="played-count">
+                                <span class="icon"></span>
+                                <span class="numbers">2342</span>
+                            </div>
+                            <div class="comment-count">
+                                <span class="icon"></span>
+                                <span class="numbers">1342</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="content-item">
+                        <a href="javascript:">
+                            <img src="img/a.jpg" alt="老刘">
+                            <h3>乡村爱情8</h3>
+                        </a>
+                        <div class="content-des">
+                            <div class="played-count">
+                                <span class="icon"></span>
+                                <span class="numbers">2342</span>
+                            </div>
+                            <div class="comment-count">
+                                <span class="icon"></span>
+                                <span class="numbers">1342</span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="tab-loading"></div>
+            </div>
+        </div>
+    </div>
+
+    <!--滚动条-->
+    <div id="scrollBar"></div>
+
+
+</div>
+
+<script src="js/transformcss.js"></script>
+<script src="js/swiper.js"></script>
+<script src="js/touchscroll.js"></script>
+<script src="js/index.js"></script>
+
+<script>
+
+</script>
+</body>
+</html>
